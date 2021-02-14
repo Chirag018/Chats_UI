@@ -15,12 +15,8 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class MainApp extends StatefulWidget {
+class MainApp extends StatelessWidget {
   @override
-  _MainAppState createState() => _MainAppState();
-}
-
-class _MainAppState extends State<MainApp> {
   int currentIndex;
   void _onTapped(int index) {
     currentIndex = index;
